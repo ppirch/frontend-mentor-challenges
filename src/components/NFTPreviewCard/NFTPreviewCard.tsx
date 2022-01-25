@@ -54,13 +54,6 @@ const NFTPreviewCard = () => {
               <p className="text-white hover:text-[#00fff7] inline ">Jules Wyvern</p>
             </div>
           </div>
-
-          {/* <p className="text-center font-outfit font-bold text-2xl text-[#1f3251]">
-            Improve your front-end skills by building projects
-          </p>
-          <p className="pt-4 text-center font-outfit text-base text-[#7b879d] ">
-            Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-          </p> */}
         </div>
       </div>
     </div>
