@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./index.css"
 import App from "./pages/App"
+import QRCodePage from "./pages/QRCode"
 import reportWebVitals from "./reportWebVitals"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
@@ -10,6 +11,7 @@ ReactDOM.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/qr-code-component" element={<QRCodePage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
