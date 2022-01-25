@@ -3,6 +3,7 @@ import ReactDOM from "react-dom"
 import "./index.css"
 import App from "./pages/App"
 import QRCodePage from "./pages/QRCode"
+import NFTPreviewCardPage from "./pages/NFTPreviewCard"
 import reportWebVitals from "./reportWebVitals"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
@@ -12,6 +13,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/qr-code-component" element={<QRCodePage />} />
+        <Route path="/nft-preview-card-component" element={<NFTPreviewCardPage />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
